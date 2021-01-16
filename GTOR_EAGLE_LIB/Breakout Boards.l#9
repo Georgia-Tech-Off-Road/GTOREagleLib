@@ -64,7 +64,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -75,6 +75,22 @@
 <packages>
 </packages>
 <symbols>
+<symbol name="MAX14870_BREAKOUT">
+<wire x1="-15.24" y1="15.24" x2="15.24" y2="15.24" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="15.24" x2="15.24" y2="-15.24" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="-15.24" x2="-15.24" y2="-15.24" width="0.1524" layer="94"/>
+<wire x1="-15.24" y1="-15.24" x2="-15.24" y2="15.24" width="0.1524" layer="94"/>
+<pin name="PWM" x="-17.78" y="10.16" length="short" direction="in"/>
+<pin name="DIR" x="-17.78" y="5.08" length="short" direction="in"/>
+<pin name="NFAULT" x="-17.78" y="0" length="short" direction="in"/>
+<pin name="NEN" x="-17.78" y="-5.08" length="short" direction="in"/>
+<pin name="GND_MCU" x="-17.78" y="-10.16" length="short" direction="pwr"/>
+<pin name="VM" x="17.78" y="10.16" length="short" direction="pwr" rot="R180"/>
+<pin name="M1" x="17.78" y="5.08" length="short" direction="out" rot="R180"/>
+<pin name="M2" x="17.78" y="0" length="short" direction="out" rot="R180"/>
+<pin name="VIN" x="17.78" y="-5.08" length="short" direction="pwr" rot="R180"/>
+<pin name="GND_BRD" x="17.78" y="-10.16" length="short" direction="pwr" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 </devicesets>

@@ -197,7 +197,7 @@
 <deviceset name="MAX14870_BREAKOUT">
 <description>&lt;b&gt; MAX14870 Single Brushed DC Motor Driver Carrier &lt;/b&gt;
 
-https://www.pololu.com/product/2961/resources</description>
+&lt;p&gt;https://www.pololu.com/product/2961/resources</description>
 <gates>
 <gate name="G$1" symbol="MAX14870_BREAKOUT" x="0" y="0"/>
 </gates>
