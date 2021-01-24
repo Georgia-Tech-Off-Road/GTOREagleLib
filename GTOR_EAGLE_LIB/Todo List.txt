@@ -7,7 +7,7 @@ Passive Components
 - Standard capacitor types and packages
 - Standard inductor types and packages
 - Schottkey diodes used for teensy power (maybe find small / larger ones)
-- Standard LED types and packages
+
 
 Connectors
 - 1x3 and 1x4 terminal blocks
