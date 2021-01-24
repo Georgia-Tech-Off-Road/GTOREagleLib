@@ -1,0 +1,25 @@
+GTOR_EAGLE_LIB To-do list
+
+Active Componentes
+- Find a decent buck converter set up
+
+Passive Components
+- Standard capacitor types and packages
+- Standard inductor types and packages
+- Schottkey diodes used for teensy power (maybe find small / larger ones)
+- Standard LED types and packages
+
+Connectors
+- 1x3 and 1x4 terminal blocks
+- XT-30 and XT-60 would be nice
+- Mount to board 3, 4, and 6 pin microfit connectors
+
+Microcontroller
+
+
+Breakout Boards
+
+
+
+Other
+- Would be nice to figure out how to directly make a BOM from a completed circuit board
