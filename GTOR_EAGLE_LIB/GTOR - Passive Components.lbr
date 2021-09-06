@@ -7498,6 +7498,18 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <vertex x="-3.05" y="-2.475"/>
 </polygon>
 </package>
+<package name="KEYSTONE3035">
+<smd name="NEG" x="0" y="0" dx="10.16" dy="10.16" layer="1"/>
+<pad name="VCC1" x="-10.795" y="0" drill="2.032"/>
+<pad name="VCC2" x="10.795" y="0" drill="2.032"/>
+<wire x1="-13.97" y1="-8.89" x2="13.97" y2="-8.89" width="0.127" layer="21"/>
+<wire x1="13.97" y1="-8.89" x2="13.97" y2="8.89" width="0.127" layer="21"/>
+<wire x1="13.97" y1="8.89" x2="-13.97" y2="8.89" width="0.127" layer="21"/>
+<wire x1="-13.97" y1="8.89" x2="-13.97" y2="-8.89" width="0.127" layer="21"/>
+<text x="-11.43" y="6.35" size="1.27" layer="21">Battery inserts from this side</text>
+<circle x="-16.51" y="6.35" radius="1.27" width="0.508" layer="21"/>
+<text x="-10.16" y="10.16" size="3.81" layer="25">&gt;NAME</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="R0402" urn="urn:adsk.eagle:package:23547/3" type="model">
@@ -9672,6 +9684,16 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <rectangle x1="-1.872" y1="0.287" x2="-1.745" y2="1.176" layer="94"/>
 <pin name="+" x="0" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="-" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+</symbol>
+<symbol name="KEYSTONE3035">
+<wire x1="7.62" y1="7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<pin name="VCC1" x="-5.08" y="10.16" length="short" rot="R270"/>
+<pin name="VCC2" x="5.08" y="10.16" length="short" rot="R270"/>
+<pin name="NEG" x="0" y="-10.16" length="short" rot="R90"/>
+<text x="10.16" y="7.62" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -13301,6 +13323,30 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <pinmap gate="G$1" pin="-" pinorder="2"/>
 </pinmapping>
 </spice>
+</deviceset>
+<deviceset name="KEYSTONE3035">
+<description>RTC clock battery holder
+
+&lt;br&gt;
+Works with 2016, 2020, 2025, 2032 coin cell batterys.
+
+&lt;br&gt; 
+&lt;a href="https://www.digikey.com/en/products/detail/keystone-electronics/3035/5872907"&gt;Keystone 3035 Digikey Link&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="KEYSTONE3035" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="KEYSTONE3035">
+<connects>
+<connect gate="G$1" pin="NEG" pad="NEG"/>
+<connect gate="G$1" pin="VCC1" pad="VCC1"/>
+<connect gate="G$1" pin="VCC2" pad="VCC2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
 </deviceset>
 </devicesets>
 </library>
