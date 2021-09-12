@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -5407,7 +5407,7 @@ Source: http://www.commcon.com/main</description>
 <hole x="-11" y="6" drill="1.1"/>
 <hole x="-14.7" y="6" drill="1.1"/>
 <pad name="P$1L" x="-11" y="6" drill="1.1"/>
-<pad name="P$1M1" x="-14.7" y="6" drill="1.1"/>
+<pad name="P$1M" x="-14.7" y="6" drill="1.1"/>
 <pad name="P$1K" x="-7.5" y="6" drill="1.1"/>
 <pad name="P$1J" x="-5" y="6" drill="1.1"/>
 <pad name="P$1H" x="-2.5" y="6" drill="1.1"/>
@@ -6325,60 +6325,60 @@ Source: http://www.commcon.com/main</description>
 <pin name="4" x="0" y="-2.54" length="middle"/>
 </symbol>
 <symbol name="PINHD48">
-<wire x1="-6.35" y1="-33.02" x2="1.27" y2="-33.02" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="-33.02" x2="1.27" y2="91.44" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="91.44" x2="-6.35" y2="91.44" width="0.4064" layer="94"/>
-<wire x1="-6.35" y1="91.44" x2="-6.35" y2="-33.02" width="0.4064" layer="94"/>
-<text x="-6.35" y="92.075" size="1.778" layer="95">&gt;NAME</text>
-<text x="-6.35" y="-35.56" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="-2.54" y="88.9" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="2" x="-2.54" y="86.36" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="3" x="-2.54" y="83.82" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="4" x="-2.54" y="81.28" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="5" x="-2.54" y="78.74" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="6" x="-2.54" y="76.2" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="7" x="-2.54" y="73.66" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="8" x="-2.54" y="71.12" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="9" x="-2.54" y="68.58" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="10" x="-2.54" y="66.04" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="11" x="-2.54" y="63.5" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="12" x="-2.54" y="60.96" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="13" x="-2.54" y="58.42" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="14" x="-2.54" y="55.88" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="15" x="-2.54" y="53.34" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="16" x="-2.54" y="50.8" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="17" x="-2.54" y="48.26" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="18" x="-2.54" y="45.72" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="19" x="-2.54" y="43.18" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="20" x="-2.54" y="40.64" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="21" x="-2.54" y="38.1" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="22" x="-2.54" y="35.56" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="23" x="-2.54" y="33.02" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="24" x="-2.54" y="30.48" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="25" x="-2.54" y="27.94" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="26" x="-2.54" y="25.4" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="27" x="-2.54" y="22.86" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="28" x="-2.54" y="20.32" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="29" x="-2.54" y="17.78" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="30" x="-2.54" y="15.24" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="31" x="-2.54" y="12.7" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="32" x="-2.54" y="10.16" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="33" x="-2.54" y="7.62" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="34" x="-2.54" y="5.08" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="35" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="36" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="37" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="38" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="39" x="-2.54" y="-7.62" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="40" x="-2.54" y="-10.16" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="41" x="-2.54" y="-12.7" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="42" x="-2.54" y="-15.24" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="43" x="-2.54" y="-17.78" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="44" x="-2.54" y="-20.32" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="45" x="-2.54" y="-22.86" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="46" x="-2.54" y="-25.4" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="47" x="-2.54" y="-27.94" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="48" x="-2.54" y="-30.48" visible="pad" length="short" direction="pas" function="dot"/>
+<wire x1="-31.75" y1="-7.62" x2="34.29" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="34.29" y1="-7.62" x2="34.29" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="34.29" y1="5.08" x2="-31.75" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-31.75" y1="5.08" x2="-31.75" y2="-7.62" width="0.4064" layer="94"/>
+<text x="-31.75" y="5.715" size="1.778" layer="95">&gt;NAME</text>
+<text x="-31.75" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1H" x="-5.08" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="2H" x="-5.08" y="0" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="3H" x="-5.08" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="4H" x="-5.08" y="-5.08" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="1E" x="10.16" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="2E" x="10.16" y="0" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="3E" x="10.16" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="4E" x="10.16" y="-5.08" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="1B" x="25.4" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="2B" x="25.4" y="0" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="3B" x="25.4" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="4B" x="25.4" y="-5.08" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="1L" x="-22.86" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="2L" x="-22.86" y="0" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="3L" x="-22.86" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="4L" x="-22.86" y="-5.08" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="1G" x="0" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="2G" x="0" y="0" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="3G" x="0" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="4G" x="0" y="-5.08" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="1D" x="15.24" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="2D" x="15.24" y="0" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="3D" x="15.24" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="4D" x="15.24" y="-5.08" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="1A" x="30.48" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="2A" x="30.48" y="0" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="3A" x="30.48" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="4A" x="30.48" y="-5.08" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="1K" x="-15.24" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="2K" x="-15.24" y="0" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="3K" x="-15.24" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="4K" x="-15.24" y="-5.08" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="1J" x="-10.16" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="2J" x="-10.16" y="0" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="3J" x="-10.16" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="4J" x="-10.16" y="-5.08" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="1F" x="5.08" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="2F" x="5.08" y="0" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="3F" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="4F" x="5.08" y="-5.08" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="1C" x="20.32" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="2C" x="20.32" y="0" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="3C" x="20.32" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="4C" x="20.32" y="-5.08" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="1M" x="-30.48" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="2M" x="-30.48" y="0" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="3M" x="-30.48" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="4M" x="-30.48" y="-5.08" visible="pad" length="short" direction="pas" function="dot"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -7819,6 +7819,68 @@ Source: &lt;a href="https://componentseahttps://www.phoenixcontact.com/online/po
 <attribute name="MOUSER_PART_NUMBER" value="651-1985218" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1985218?qs=A%2FKWGUWTCZhHYDNhOnewhw%3D%3D" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="48CKTRASCMCHEADER">
+<gates>
+<gate name="G$1" symbol="PINHD48" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="366380003">
+<connects>
+<connect gate="G$1" pin="1A" pad="P$1A"/>
+<connect gate="G$1" pin="1B" pad="P$1B"/>
+<connect gate="G$1" pin="1C" pad="P$1C"/>
+<connect gate="G$1" pin="1D" pad="P$1D"/>
+<connect gate="G$1" pin="1E" pad="P$1E"/>
+<connect gate="G$1" pin="1F" pad="P$1F"/>
+<connect gate="G$1" pin="1G" pad="P$1G"/>
+<connect gate="G$1" pin="1H" pad="P$1H"/>
+<connect gate="G$1" pin="1J" pad="P$1J"/>
+<connect gate="G$1" pin="1K" pad="P$1K"/>
+<connect gate="G$1" pin="1L" pad="P$1L"/>
+<connect gate="G$1" pin="1M" pad="P$1M"/>
+<connect gate="G$1" pin="2A" pad="P$2A"/>
+<connect gate="G$1" pin="2B" pad="P$2B"/>
+<connect gate="G$1" pin="2C" pad="P$2C"/>
+<connect gate="G$1" pin="2D" pad="P$2D"/>
+<connect gate="G$1" pin="2E" pad="P$2E"/>
+<connect gate="G$1" pin="2F" pad="P$2F"/>
+<connect gate="G$1" pin="2G" pad="P$2G"/>
+<connect gate="G$1" pin="2H" pad="P$2H"/>
+<connect gate="G$1" pin="2J" pad="P$2J"/>
+<connect gate="G$1" pin="2K" pad="P$2K"/>
+<connect gate="G$1" pin="2L" pad="P$2L"/>
+<connect gate="G$1" pin="2M" pad="P$2M"/>
+<connect gate="G$1" pin="3A" pad="P$3A"/>
+<connect gate="G$1" pin="3B" pad="P$3B"/>
+<connect gate="G$1" pin="3C" pad="P$3C"/>
+<connect gate="G$1" pin="3D" pad="P$3D"/>
+<connect gate="G$1" pin="3E" pad="P$3E"/>
+<connect gate="G$1" pin="3F" pad="P$3F"/>
+<connect gate="G$1" pin="3G" pad="P$3G"/>
+<connect gate="G$1" pin="3H" pad="P$3H"/>
+<connect gate="G$1" pin="3J" pad="P$3J"/>
+<connect gate="G$1" pin="3K" pad="P$3K"/>
+<connect gate="G$1" pin="3L" pad="P$3L"/>
+<connect gate="G$1" pin="3M" pad="P$3M"/>
+<connect gate="G$1" pin="4A" pad="P$4A"/>
+<connect gate="G$1" pin="4B" pad="P$4B"/>
+<connect gate="G$1" pin="4C" pad="P$4C"/>
+<connect gate="G$1" pin="4D" pad="P$4D"/>
+<connect gate="G$1" pin="4E" pad="P$4E"/>
+<connect gate="G$1" pin="4F" pad="P$4F"/>
+<connect gate="G$1" pin="4G" pad="P$4G"/>
+<connect gate="G$1" pin="4H" pad="P$4H"/>
+<connect gate="G$1" pin="4J" pad="P$4J"/>
+<connect gate="G$1" pin="4K" pad="P$4K"/>
+<connect gate="G$1" pin="4L" pad="P$4L"/>
+<connect gate="G$1" pin="4M" pad="P$4M"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
