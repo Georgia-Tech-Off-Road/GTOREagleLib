@@ -906,7 +906,7 @@
 <pad name="VIN" x="-27.94" y="7.62" drill="0.9652"/>
 <pad name="GND2" x="-25.4" y="7.62" drill="0.9652"/>
 </package>
-<package name="XBEE">
+<package name="XBEE_3_PRO">
 <description>&lt;a href="https://github.com/adafruit/Adafruit-Eagle-Library"&gt;Source: Adafruit&lt;/a&gt;&lt;p&gt;
 Updated for XBee Pro based off &lt;a href="https://www.sparkfun.com/datasheets/Wireless/Zigbee/XBee-Dimensional.pdf"&gt;Sparkfun&lt;/a&gt;</description>
 <wire x1="-12.5" y1="-14.36" x2="12.5" y2="-14.36" width="0.127" layer="21"/>
@@ -1087,6 +1087,42 @@ Updated for XBee Pro based off &lt;a href="https://www.sparkfun.com/datasheets/W
 <circle x="11.43" y="0" radius="1" width="0.127" layer="21"/>
 <text x="-28.682065625" y="-1.174503125" size="0.6096" layer="21" rot="R90">POGO</text>
 </package>
+<package name="XBEE_PRO_S3B">
+<wire x1="-4.6" y1="16.47" x2="4.6" y2="16.47" width="0.2" layer="21"/>
+<wire x1="12.19" y1="9.94" x2="12.19" y2="-16.47" width="0.2" layer="21"/>
+<wire x1="12.19" y1="-16.47" x2="-12.19" y2="-16.47" width="0.2" layer="21"/>
+<wire x1="-12.19" y1="-16.47" x2="-12.19" y2="9.94" width="0.2" layer="21"/>
+<wire x1="-12.19" y1="9.94" x2="-4.6" y2="16.47" width="0.2" layer="21"/>
+<wire x1="12.19" y1="9.94" x2="4.6" y2="16.47" width="0.2" layer="21"/>
+<wire x1="-12.5" y1="-16.75" x2="-12.5" y2="10" width="0.05" layer="39"/>
+<wire x1="-12.5" y1="10" x2="-4.75" y2="16.75" width="0.05" layer="39"/>
+<wire x1="-4.75" y1="16.75" x2="4.75" y2="16.75" width="0.05" layer="39"/>
+<wire x1="4.75" y1="16.75" x2="12.5" y2="10" width="0.05" layer="39"/>
+<wire x1="12.5" y1="10" x2="12.5" y2="-16.75" width="0.05" layer="39"/>
+<wire x1="12.5" y1="-16.75" x2="-12.5" y2="-16.75" width="0.05" layer="39"/>
+<text x="-13.0411" y="-12.5395" size="1.274009375" layer="25" rot="R90">&gt;NAME</text>
+<text x="14.268" y="-13.0165" size="1.271609375" layer="27" rot="R90">&gt;VALUE</text>
+<pad name="1" x="-11" y="8.75" drill="0.8" diameter="1.4" shape="square"/>
+<pad name="2" x="-11" y="6.75" drill="0.8" diameter="1.4"/>
+<pad name="3" x="-11" y="4.75" drill="0.8" diameter="1.4"/>
+<pad name="4" x="-11" y="2.75" drill="0.8" diameter="1.4"/>
+<pad name="5" x="-11" y="0.75" drill="0.8" diameter="1.4"/>
+<pad name="6" x="-11" y="-1.25" drill="0.8" diameter="1.4"/>
+<pad name="7" x="-11" y="-3.25" drill="0.8" diameter="1.4"/>
+<pad name="8" x="-11" y="-5.25" drill="0.8" diameter="1.4"/>
+<pad name="9" x="-11" y="-7.25" drill="0.8" diameter="1.4"/>
+<pad name="10" x="-11" y="-9.25" drill="0.8" diameter="1.4"/>
+<pad name="11" x="11" y="-9.25" drill="0.8" diameter="1.4" rot="R180"/>
+<pad name="12" x="11" y="-7.25" drill="0.8" diameter="1.4" rot="R180"/>
+<pad name="13" x="11" y="-5.25" drill="0.8" diameter="1.4" rot="R180"/>
+<pad name="14" x="11" y="-3.25" drill="0.8" diameter="1.4" rot="R180"/>
+<pad name="15" x="11" y="-1.25" drill="0.8" diameter="1.4" rot="R180"/>
+<pad name="16" x="11" y="0.75" drill="0.8" diameter="1.4" rot="R180"/>
+<pad name="17" x="11" y="2.75" drill="0.8" diameter="1.4" rot="R180"/>
+<pad name="18" x="11" y="4.75" drill="0.8" diameter="1.4" rot="R180"/>
+<pad name="19" x="11" y="6.75" drill="0.8" diameter="1.4" rot="R180"/>
+<pad name="20" x="11" y="8.75" drill="0.8" diameter="1.4" rot="R180"/>
+</package>
 </packages>
 <symbols>
 <symbol name="TEENSY_4.0_EXPANDED_1">
@@ -1219,7 +1255,7 @@ Updated for XBee Pro based off &lt;a href="https://www.sparkfun.com/datasheets/W
 <pin name="34" x="20.32" y="-43.18" visible="pin" length="middle" rot="R180"/>
 <pin name="33" x="20.32" y="-45.72" visible="pin" length="middle" rot="R180"/>
 </symbol>
-<symbol name="XBEE">
+<symbol name="XBEE_3_PRO">
 <description>&lt;a href="https://github.com/adafruit/Adafruit-Eagle-Library"&gt;Source: Adafruit&lt;/a&gt;</description>
 <wire x1="-17.78" y1="12.7" x2="-17.78" y2="-15.24" width="0.254" layer="94"/>
 <wire x1="-17.78" y1="-15.24" x2="20.32" y2="-15.24" width="0.254" layer="94"/>
@@ -1360,6 +1396,33 @@ Updated for XBee Pro based off &lt;a href="https://www.sparkfun.com/datasheets/W
 <pin name="G" x="-27.94" y="-33.02" visible="pin" length="middle"/>
 <pin name="T-" x="-27.94" y="-35.56" visible="pin" length="middle"/>
 <pin name="T+" x="-27.94" y="-38.1" visible="pin" length="middle"/>
+</symbol>
+<symbol name="XBEE_PRO_S3B">
+<wire x1="-22.86" y1="22.86" x2="22.86" y2="22.86" width="0.254" layer="94"/>
+<wire x1="22.86" y1="22.86" x2="22.86" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="22.86" y1="-22.86" x2="-22.86" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="-22.86" y1="-22.86" x2="-22.86" y2="22.86" width="0.254" layer="94"/>
+<text x="-22.8806" y="25.4229" size="1.271140625" layer="95">&gt;NAME</text>
+<text x="-22.9091" y="-25.4546" size="1.27271875" layer="96">&gt;VALUE</text>
+<pin name="VCC" x="27.94" y="20.32" length="middle" direction="pwr" rot="R180"/>
+<pin name="DOUT/DIO13" x="-27.94" y="10.16" length="middle"/>
+<pin name="DIN/NCONFIG/DIO14" x="-27.94" y="7.62" length="middle"/>
+<pin name="DIO12/SPI_MISO" x="-27.94" y="5.08" length="middle"/>
+<pin name="!RESET" x="-27.94" y="17.78" length="middle" direction="in"/>
+<pin name="DIO10/PWM0" x="-27.94" y="2.54" length="middle"/>
+<pin name="DIO11/PWM1" x="-27.94" y="0" length="middle"/>
+<pin name="NDTR/SLEEP_RQ/DIO8" x="-27.94" y="-2.54" length="middle"/>
+<pin name="GND" x="27.94" y="-20.32" length="middle" direction="pwr" rot="R180"/>
+<pin name="DIO4/SPI_MOSI" x="-27.94" y="-5.08" length="middle"/>
+<pin name="NCTS/DIO7" x="-27.94" y="-7.62" length="middle"/>
+<pin name="ON_NSLEEP/DIO9" x="-27.94" y="-10.16" length="middle"/>
+<pin name="VREF" x="-27.94" y="15.24" length="middle" direction="in"/>
+<pin name="ASSOCIATE/DIO5" x="27.94" y="-7.62" length="middle" direction="out" rot="R180"/>
+<pin name="NRTS/DIO6" x="-27.94" y="20.32" length="middle" direction="in"/>
+<pin name="AD3/DIO3/SPI_NSSEL" x="-27.94" y="-12.7" length="middle"/>
+<pin name="AD2/DIO2/SPI_CLK" x="-27.94" y="-15.24" length="middle"/>
+<pin name="AD1/DIO1/SPI_NATTN" x="-27.94" y="-17.78" length="middle"/>
+<pin name="AD0/DIO0" x="-27.94" y="-20.32" length="middle"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1514,13 +1577,13 @@ Updated for XBee Pro based off &lt;a href="https://www.sparkfun.com/datasheets/W
 </device>
 </devices>
 </deviceset>
-<deviceset name="XBEE">
+<deviceset name="XBEE_3_PRO">
 <description>&lt;a href="https://github.com/adafruit/Adafruit-Eagle-Library"&gt;Source: Adafruit&lt;/a&gt;</description>
 <gates>
-<gate name="G$1" symbol="XBEE" x="0" y="0"/>
+<gate name="G$1" symbol="XBEE_3_PRO" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="XBEE">
+<device name="" package="XBEE_3_PRO">
 <connects>
 <connect gate="G$1" pin="AD0/DIO0" pad="20"/>
 <connect gate="G$1" pin="AD1/DIO1" pad="19"/>
@@ -1675,6 +1738,46 @@ Updated for XBee Pro based off &lt;a href="https://www.sparkfun.com/datasheets/W
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="XBEE_PRO_S3B" prefix="U">
+<description>XBee-PRO 900HP DigiMesh 900 MHz 200 Kbps RF Module with U.FL Connector </description>
+<gates>
+<gate name="G$1" symbol="XBEE_PRO_S3B" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="XBEE_PRO_S3B">
+<connects>
+<connect gate="G$1" pin="!RESET" pad="5"/>
+<connect gate="G$1" pin="AD0/DIO0" pad="20"/>
+<connect gate="G$1" pin="AD1/DIO1/SPI_NATTN" pad="19"/>
+<connect gate="G$1" pin="AD2/DIO2/SPI_CLK" pad="18"/>
+<connect gate="G$1" pin="AD3/DIO3/SPI_NSSEL" pad="17"/>
+<connect gate="G$1" pin="ASSOCIATE/DIO5" pad="15"/>
+<connect gate="G$1" pin="DIN/NCONFIG/DIO14" pad="3"/>
+<connect gate="G$1" pin="DIO10/PWM0" pad="6"/>
+<connect gate="G$1" pin="DIO11/PWM1" pad="7"/>
+<connect gate="G$1" pin="DIO12/SPI_MISO" pad="4"/>
+<connect gate="G$1" pin="DIO4/SPI_MOSI" pad="11"/>
+<connect gate="G$1" pin="DOUT/DIO13" pad="2"/>
+<connect gate="G$1" pin="GND" pad="10"/>
+<connect gate="G$1" pin="NCTS/DIO7" pad="12"/>
+<connect gate="G$1" pin="NDTR/SLEEP_RQ/DIO8" pad="9"/>
+<connect gate="G$1" pin="NRTS/DIO6" pad="16"/>
+<connect gate="G$1" pin="ON_NSLEEP/DIO9" pad="13"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
+<connect gate="G$1" pin="VREF" pad="14"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value=" General ISM &lt; 1GHz Transceiver Module 900MHz Antenna Not Included, RP-SMA Through Hole "/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="602-1293-ND"/>
+<attribute name="MF" value="Digi International"/>
+<attribute name="MP" value="XBP9B-XCST-001"/>
+<attribute name="PACKAGE" value="Module Digi International"/>
+</technology>
 </technologies>
 </device>
 </devices>
