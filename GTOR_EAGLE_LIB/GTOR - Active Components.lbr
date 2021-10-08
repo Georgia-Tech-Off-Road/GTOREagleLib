@@ -816,6 +816,27 @@ Source: transistor-fet.lbr</description>
 <pad name="2" x="0" y="0" drill="1.01" diameter="1.71"/>
 <pad name="3" x="2.54" y="0" drill="1.01" diameter="1.71"/>
 </package>
+<package name="SOT230P700X180-4N">
+<wire x1="-3.35" y1="1.85" x2="-3.35" y2="-1.85" width="0.127" layer="51"/>
+<wire x1="-3.35" y1="-1.85" x2="3.35" y2="-1.85" width="0.127" layer="51"/>
+<wire x1="3.35" y1="-1.85" x2="3.35" y2="1.85" width="0.127" layer="51"/>
+<wire x1="3.35" y1="1.85" x2="-3.35" y2="1.85" width="0.127" layer="51"/>
+<wire x1="-3.35" y1="1.85" x2="-3.35" y2="-1.85" width="0.127" layer="21"/>
+<wire x1="-3.35" y1="-1.85" x2="3.35" y2="-1.85" width="0.127" layer="21"/>
+<wire x1="3.35" y1="-1.85" x2="3.35" y2="1.85" width="0.127" layer="21"/>
+<wire x1="3.35" y1="1.85" x2="-3.35" y2="1.85" width="0.127" layer="21"/>
+<circle x="-3.5" y="-3.6" radius="0.1" width="0.2" layer="21"/>
+<wire x1="-3.75" y1="4.5" x2="3.75" y2="4.5" width="0.05" layer="39"/>
+<wire x1="3.75" y1="4.5" x2="3.75" y2="-4.5" width="0.05" layer="39"/>
+<wire x1="3.75" y1="-4.5" x2="-3.75" y2="-4.5" width="0.05" layer="39"/>
+<wire x1="-3.75" y1="-4.5" x2="-3.75" y2="4.5" width="0.05" layer="39"/>
+<text x="-14.3715" y="26.1491" size="3.769290625" layer="25">&gt;NAME</text>
+<text x="-14.5253" y="-26.4304" size="3.80976875" layer="27" align="top-left">&gt;VALUE</text>
+<smd name="1" x="-2.3" y="-3.15" dx="1.5" dy="2" layer="1" rot="R180"/>
+<smd name="2" x="0" y="-3.15" dx="1.5" dy="2" layer="1" rot="R180"/>
+<smd name="3" x="2.3" y="-3.15" dx="1.5" dy="2" layer="1" rot="R180"/>
+<smd name="4" x="0" y="3.15" dx="3.8" dy="2" layer="1" rot="R180"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="DIL14" urn="urn:adsk.eagle:package:16407/2" type="model">
@@ -2277,6 +2298,23 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tlc5952"&gt; Datasheet &lt;/a&gt;<
 <connect gate="G$1" pin="GND" pad="2"/>
 <connect gate="G$1" pin="VIN" pad="1"/>
 <connect gate="G$1" pin="VOUT" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="REG_5V_LDL1117S50R">
+<gates>
+<gate name="G$1" symbol="VOLTAGE_REGULATOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT230P700X180-4N">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2 4"/>
 </connects>
 <technologies>
 <technology name=""/>
