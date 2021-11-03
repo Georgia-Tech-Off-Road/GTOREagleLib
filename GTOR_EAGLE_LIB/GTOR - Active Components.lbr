@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="mil" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -837,6 +837,34 @@ Source: transistor-fet.lbr</description>
 <smd name="3" x="2.3" y="-3.15" dx="1.5" dy="2" layer="1" rot="R180"/>
 <smd name="4" x="0" y="3.15" dx="3.8" dy="2" layer="1" rot="R180"/>
 </package>
+<package name="SWITCH_03211B">
+<pad name="6" x="0" y="-5.3086" drill="1.1938" diameter="1.7018"/>
+<pad name="1" x="0" y="0" drill="1.1938" diameter="1.7018"/>
+<wire x1="-0.254" y1="0" x2="0.254" y2="0" width="0.1524" layer="51"/>
+<wire x1="0" y1="-0.254" x2="0" y2="0.254" width="0.1524" layer="51"/>
+<wire x1="-12.7" y1="-0.5842" x2="-12.7" y2="0.6096" width="0.1524" layer="51"/>
+<wire x1="-12.7" y1="-5.8928" x2="-12.7" y2="-4.699" width="0.1524" layer="51"/>
+<wire x1="-0.7112" y1="-4.699" x2="-0.7112" y2="-5.8928" width="0.1524" layer="51"/>
+<wire x1="-0.7112" y1="0.6096" x2="-0.7112" y2="-0.5842" width="0.1524" layer="51"/>
+<wire x1="-12.7" y1="-8.636" x2="-0.7112" y2="-8.636" width="0.1524" layer="51"/>
+<wire x1="-0.7112" y1="-8.636" x2="-0.7112" y2="3.3528" width="0.1524" layer="51"/>
+<wire x1="-0.7112" y1="3.3528" x2="-12.7" y2="3.3528" width="0.1524" layer="51"/>
+<wire x1="-12.7" y1="3.3528" x2="-12.7" y2="-8.636" width="0.1524" layer="51"/>
+<wire x1="-12.1158" y1="0" x2="-12.5222" y2="0" width="0" layer="51" curve="-180"/>
+<wire x1="-12.5222" y1="0" x2="-12.1158" y2="0" width="0" layer="51" curve="-180"/>
+<wire x1="-4.064" y1="-2.6416" x2="-9.3726" y2="-2.6416" width="0" layer="51" curve="-180"/>
+<wire x1="-9.3726" y1="-2.6416" x2="-4.064" y2="-2.6416" width="0" layer="51" curve="-180"/>
+<wire x1="-12.827" y1="3.4798" x2="-12.827" y2="-8.763" width="0.1524" layer="21"/>
+<wire x1="-0.5842" y1="-4.191" x2="-0.5842" y2="-1.1176" width="0.1524" layer="21"/>
+<wire x1="-0.5842" y1="1.1176" x2="-0.5842" y2="3.4798" width="0.1524" layer="21"/>
+<wire x1="-12.827" y1="-8.763" x2="-0.5842" y2="-8.763" width="0.1524" layer="21"/>
+<wire x1="-0.5842" y1="-8.763" x2="-0.5842" y2="-6.4262" width="0.1524" layer="21"/>
+<wire x1="-0.5842" y1="3.4798" x2="-12.827" y2="3.4798" width="0.1524" layer="21"/>
+<wire x1="-14.4018" y1="0" x2="-14.8082" y2="0" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-14.8082" y1="0" x2="-14.4018" y2="0" width="0.1524" layer="21" curve="-180"/>
+<text x="-9.9822" y="-3.2766" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-8.4328" y="-3.2766" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="DIL14" urn="urn:adsk.eagle:package:16407/2" type="model">
@@ -1459,6 +1487,16 @@ Source: transistor-fet.lbr</description>
 <pin name="VIN" x="-2.54" y="-7.62" length="middle" direction="pwr"/>
 <pin name="VOUT" x="30.48" y="-7.62" length="middle" direction="pwr" rot="R180"/>
 <pin name="GND" x="30.48" y="-12.7" length="middle" direction="pwr" rot="R180"/>
+</symbol>
+<symbol name="SWITCH_03211B">
+<pin name="1" x="2.54" y="0" length="middle" direction="pas"/>
+<pin name="6" x="38.1" y="0" length="middle" direction="pas" rot="R180"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="33.02" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="33.02" y1="-5.08" x2="33.02" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="33.02" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
+<text x="15.5956" y="9.1186" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+<text x="14.9606" y="6.5786" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -2318,6 +2356,27 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tlc5952"&gt; Datasheet &lt;/a&gt;<
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GPTS203211B" prefix="U">
+<gates>
+<gate name="A" symbol="SWITCH_03211B" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SWITCH_03211B">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COPYRIGHT" value="Copyright (C) 2021 Ultra Librarian. All rights reserved." constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER_1" value="CW181-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="GPTS203211B" constant="no"/>
+<attribute name="MFR_NAME" value="CW Industries" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
