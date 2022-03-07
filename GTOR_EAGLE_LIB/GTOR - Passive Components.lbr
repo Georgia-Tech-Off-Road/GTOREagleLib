@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -7544,13 +7544,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="0.9144" y1="0.2032" x2="0.9144" y2="0.6604" width="0.1524" layer="51"/>
 <wire x1="-0.5588" y1="0.6604" x2="-0.9144" y2="0.6604" width="0.1524" layer="51"/>
 <wire x1="-0.9144" y1="0.6604" x2="-0.9144" y2="0.3302" width="0.1524" layer="51"/>
-<text x="-1.2192" y="-0.635" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
-<polygon width="0.0254" layer="41">
-<vertex x="-1.8923" y="-0.8636"/>
-<vertex x="-1.8923" y="0.8636"/>
-<vertex x="1.8923" y="0.8636"/>
-<vertex x="1.8923" y="-0.8636"/>
-</polygon>
 <wire x1="-0.9144" y1="-0.3302" x2="-0.9144" y2="-0.6604" width="0.1524" layer="51"/>
 <wire x1="-1.3462" y1="4.0132" x2="-1.3462" y2="4.3942" width="0.1524" layer="47"/>
 <wire x1="1.3462" y1="0" x2="1.3462" y2="0.2032" width="0.1524" layer="47"/>
@@ -7570,23 +7563,9 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <text x="4.3942" y="-0.3048" size="0.635" layer="47" ratio="4" rot="SR0">0.016in/0.406mm</text>
 <text x="6.5024" y="-0.3048" size="0.635" layer="47" ratio="4" rot="SR0">0.053in/1.346mm</text>
 <text x="-4.0386" y="-4.3688" size="0.635" layer="47" ratio="4" rot="SR0">0.071in/1.803mm</text>
-<text x="-2.667" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
 <text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
-<polygon width="0.0254" layer="41">
-<vertex x="-0.8636" y="0.6223"/>
-<vertex x="0.8636" y="0.6223"/>
-<vertex x="0.8636" y="-0.6223"/>
-<vertex x="-0.8636" y="-0.6223"/>
-</polygon>
 <text x="-3.2766" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Name</text>
 <wire x1="-0.9144" y1="0.3302" x2="-0.9144" y2="0.2032" width="0.1524" layer="51"/>
-<text x="-1.2192" y="-0.635" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
-<polygon width="0.0254" layer="41">
-<vertex x="-1.8923" y="-0.8636"/>
-<vertex x="-1.8923" y="0.8636"/>
-<vertex x="1.8923" y="0.8636"/>
-<vertex x="1.8923" y="-0.8636"/>
-</polygon>
 <wire x1="-0.9144" y1="-0.2032" x2="-0.9144" y2="-0.3302" width="0.1524" layer="51"/>
 <text x="-15.2146" y="-8.4836" size="1.27" layer="47" ratio="6" rot="SR0">Default Padstyle: RX31Y18D0T</text>
 <text x="-14.8082" y="-10.3886" size="1.27" layer="47" ratio="6" rot="SR0">Alt 1 Padstyle: OX60Y90D30P</text>
@@ -7596,16 +7575,8 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <text x="4.3942" y="-0.3048" size="0.635" layer="47" ratio="4" rot="SR0">0.016in/0.406mm</text>
 <text x="6.5024" y="-0.3048" size="0.635" layer="47" ratio="4" rot="SR0">0.053in/1.346mm</text>
 <text x="-4.0386" y="-4.3688" size="0.635" layer="47" ratio="4" rot="SR0">0.071in/1.803mm</text>
-<text x="-2.667" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
 <text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
-<polygon width="0.0254" layer="41">
-<vertex x="-0.8636" y="0.6223"/>
-<vertex x="0.8636" y="0.6223"/>
-<vertex x="0.8636" y="-0.6223"/>
-<vertex x="-0.8636" y="-0.6223"/>
-</polygon>
 <text x="-3.2766" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Name</text>
-<wire x1="-0.9144" y1="-0.2032" x2="-0.9144" y2="0.2032" width="0.1524" layer="51"/>
 <wire x1="-0.9144" y1="0.2032" x2="-1.3462" y2="0.2032" width="0.1524" layer="51"/>
 <wire x1="-1.3462" y1="0.2032" x2="-1.3462" y2="-0.2032" width="0.1524" layer="51"/>
 <wire x1="-1.3462" y1="-0.2032" x2="-0.9144" y2="-0.2032" width="0.1524" layer="51"/>
@@ -7617,14 +7588,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="-0.9144" y1="-0.6604" x2="-0.5588" y2="-0.6604" width="0.1524" layer="51"/>
 <wire x1="0.9144" y1="-0.2032" x2="0.9144" y2="0.2032" width="0.1524" layer="51"/>
 <wire x1="0.9144" y1="0.6604" x2="-0.5588" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-0.9144" y1="0.3302" x2="-0.9144" y2="-0.3302" width="0.1524" layer="51"/>
-<text x="-1.2192" y="-0.635" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
-<polygon width="0.0254" layer="41">
-<vertex x="-1.8923" y="-0.8636"/>
-<vertex x="-1.8923" y="0.8636"/>
-<vertex x="1.8923" y="0.8636"/>
-<vertex x="1.8923" y="-0.8636"/>
-</polygon>
+<wire x1="-0.9144" y1="0.2032" x2="-0.9144" y2="-0.2032" width="0.1524" layer="51"/>
 <wire x1="-1.3462" y1="1.4732" x2="-1.3462" y2="4.0132" width="0.1524" layer="47"/>
 <wire x1="1.3462" y1="0.2032" x2="1.3462" y2="4.0132" width="0.1524" layer="47"/>
 <wire x1="-1.3462" y1="4.0132" x2="-2.6162" y2="4.0132" width="0.1524" layer="47"/>
@@ -7685,14 +7649,8 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <text x="-4.0386" y="-4.3688" size="0.635" layer="47" ratio="4" rot="SR0">0.071in/1.803mm</text>
 <wire x1="-1.016" y1="-0.8128" x2="1.016" y2="-0.8128" width="0.1524" layer="21"/>
 <wire x1="1.016" y1="0.8128" x2="-1.016" y2="0.8128" width="0.1524" layer="21"/>
-<text x="-2.667" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
+<text x="-2.159" y="-0.381" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
 <text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
-<polygon width="0.0254" layer="41">
-<vertex x="-0.8636" y="0.6223"/>
-<vertex x="0.8636" y="0.6223"/>
-<vertex x="0.8636" y="-0.6223"/>
-<vertex x="-0.8636" y="-0.6223"/>
-</polygon>
 <text x="-3.2766" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Name</text>
 </package>
 <package name="SOD-323_1P8X1P35_ONS-M">
